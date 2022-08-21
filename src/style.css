@@ -1,5 +1,9 @@
+:root {
+  --main-color: lightblue;
+}
+
 body {
-    background-color: lightblue;
+    background-color: var(--main-color);
     font-family: Georgia, serif;
 }
 
@@ -47,10 +51,18 @@ h1 {
 code {
     background: white;
     margin: 5px;
+    padding: 3px;
     font-weight: bold;
 }
 
 img {
     display: block;
     max-width: 95%;
+    padding: 7px;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: var(--main-color);
+  padding: 3px;
 }
